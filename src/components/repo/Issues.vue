@@ -35,7 +35,7 @@ export default {
     data() {
         return {
             issues: [],
-            showIssues: true,
+            showIssues: false,
         }
     },
     methods: {

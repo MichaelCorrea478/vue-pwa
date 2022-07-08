@@ -1,4 +1,5 @@
-import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+// import { Octokit } from "https://cdn.skypack.dev/@octokit/rest";
+const { Octokit } = require("@octokit/rest");
 
 export const octokitMixin = {
     methods: {
